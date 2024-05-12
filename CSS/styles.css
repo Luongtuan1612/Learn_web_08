@@ -34,7 +34,42 @@ a{
 #header nav a:hover {
     color: rgb(228, 163, 44)
 }
+#side{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(29,26,27);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#side ul{
+    list-style: none;
+    margin: 0;
+    padding: 4rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#side li{
+    margin: 1rem 0;
+}
+#side a{
+    color: antiquewhite;
+    font-size: 2rem;
+}
+.menu-btn {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+}
 
+.menu-btn span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+}
 
 ul li a {
     padding: 10px;
@@ -63,6 +98,11 @@ h1{
     border-radius: 6px;
     overflow: hidden;
 }
+
+h2 {
+    font-size: 100%;
+}
+
 .content img {
     height: 15rem;
     width: 100%;
